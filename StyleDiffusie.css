@@ -1,0 +1,57 @@
+body {
+    background-color: hsl(64, 100%, 97%);
+    font-family: "Zilla Slab", serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+
+h1.title {
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 35;
+    background-color: hsl(70, 100%, 93%);
+    border-bottom: 1px gray solid;
+}
+
+a, strong {
+    font-style: italic;
+}
+
+div.Uitleg {
+    width: 630px;
+    text-align: center;
+    background-color: hsl(172, 61%, 88%);
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    border-radius: 40px;
+    position: relative;
+}
+
+h3 {
+    color: hsl(158, 62%, 26%);
+    width: 120px;
+    letter-spacing: 5px;
+    margin: 20px 250px 30px;
+    border-radius: 7px;
+    background-color: hsl(165, 55%, 80%);
+}
+
+p {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: hsl(158, 64%, 80%);
+    font-size: 16px;
+}
+
+*:not(body, strong, a, html, h1) {
+    border: solid 1px hsl(0, 100%, 75%);
+}

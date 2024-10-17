@@ -1,0 +1,125 @@
+body {
+    background-color: hsl(64, 100%, 97%);
+    font-family: "Zilla Slab", serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+h1.Title {
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 35px;
+    background-color: hsl(70, 100%, 93%);
+    border-bottom: 1px gray solid;
+}
+
+a, strong {
+    font-style: italic;
+}
+
+/* div uitleg */
+div.Uitleg-Osmose {
+    width: 630px;
+    text-align: center;
+    background-color: hsl(122, 61%, 88%);
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    border-radius: 40px;
+    position: relative;
+}
+
+div.Uitleg-Osmose > h3 {
+    color: hsl(158, 62%, 26%);
+    width: 120px;
+    letter-spacing: 5px;
+    margin: 20px 250px 30px;
+    border-radius: 7px;
+    background-color: hsl(165, 55%, 80%);
+}
+
+div.Uitleg-Osmose > p {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: hsl(158, 64%, 80%);
+    font-size: 16px;
+}
+
+/* div voorbeeld */
+div.Voorbeeld-Osmose {
+    width: 630px;
+    text-align: center;
+    background-color: hsl(60, 61%, 88%);
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    position: relative;
+}
+
+div.Voorbeeld-Osmose > h3 {
+    color: hsl(29, 52%, 60%);
+    width: 182px;
+    letter-spacing: 5px;
+    margin: 20px 225px 30px;
+    border-radius: 7px;
+    background-color: hsl(56, 93%, 78%);
+    padding-left: 2px;
+}
+
+div.Voorbeeld-Osmose > p {
+    background-color: hsl(60, 80%, 78%);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+/* voorbeeld + foto */
+div.Plaatje-en-tekst {
+    background-color: hsl(30, 100%, 96%);
+    width: 630px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+div.Plaatje-en-tekst > img {
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    border-radius: 30px;
+}
+
+div.Plaatje-en-tekst > h4 {
+    background-color: hsl(30, 100%, 92%);
+    width: 500px;
+    margin: 20px 67px 20px;
+    padding: 3px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    color: hsl(20, 90%, 76%);
+}
+
+div.Plaatje-en-tekst > p {
+    background-color: hsl(20, 100%, 90%);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+*:not(div.content, body, strong, a, html, h1) {
+    border: hsl(0, 100%, 75%) solid 1px;
+}
